@@ -23,7 +23,7 @@ test:
 production:
   <<: *default
   # database: db/production.sqlite3
-  xurl: <%= ENV["DATABASE_URL"]%>
+  url: <%= ENV["DATABASE_URL"]%>
     
   database: bloggie_production
   username: bloggie
